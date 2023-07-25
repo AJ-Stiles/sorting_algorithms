@@ -27,7 +27,9 @@ void quick_sort(int *array, size_t size);
 void quicksort_recursive(int *array, int low, int high);
 int partition(int *array, int low, int high);
 void swap(int *a, int *b);
+void swap_nodes(listint_t **list, listint_t *a, listint_t *b);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
 
 /* Function prototypes for printing functions */
 void print_array(const int *array, size_t size);
